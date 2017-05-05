@@ -57,7 +57,7 @@ How / Where to check the execution reports: -
                  > AstroAssignment1.html
                  > AstroAssignment2.html
 
-<b><a href="https://github.com/KaustavSaikia/Project/tree/master/Astro_Mobile">Astro_Mobile </a></b>: - QA Assignment Level 3 (Mobile) test codes committed.
+<b><a href="https://github.com/KaustavSaikia/Project/tree/master/Astro_Mobile">Astro_Mobile </a></b>: - QA Assignment Level 3 (Mobile) test codes committed.<br>
     In this assignment download links for Android and iOS mobile were provided. There are some limitations to automate the already installed apps. The details are as below:- 
     1) iOS Mobile: To auitomate iOS app we would need the app source code base. Apple don't allow directly to interat with the app, we need to sign the app with Apple developer profile and generate the .ipa file to perform automation.
     2) Android app: - 
