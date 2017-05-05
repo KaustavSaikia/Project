@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Astro_QA_Assignemt_2 - Test" verbose="10">
+
+  <parameter name="reportName" value="AstroAssignment2"/>   
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://www.astro.com.my/"/> 
+ 
+  <test name="Astro - Test2" preserve-order="true">
+ 	<parameter name="fname" value="Astro"/> 
+	<parameter name="lname" value="Automation"/> 
+	<parameter name="astroid" value="id"/> 
+	<parameter name="email" value="automastro"/> 
+	<parameter name="password" value="Test123t"/> 
+ 	<classes>
+      <class name="com.astro.testing.test.AstroQAAssignmentTwo"/>
+    </classes>
+  </test>
+</suite>

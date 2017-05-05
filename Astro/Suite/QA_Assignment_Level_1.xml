@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Astro_QA_Assignemt_1 - Test" verbose="10">
+
+  <parameter name="reportName" value="AstroAssignment1"/>   
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://www.astro.com.my/"/> 
+ 
+  <test name="Astro - Test" preserve-order="true">
+  
+   	<classes>
+      <class name="com.astro.testing.test.AstroQAAssignmentOne"/>
+    </classes>
+
+	<!-- Another way to include or exclude groups and execute -->    
+<!-- 	<groups>
+		<run>
+		    <include name="setUp"/>
+		    <include name="func"/>
+		    <exclude name="results"/>
+		    <include name="teardown"/>
+	 	</run>
+	</groups>
+    <packages>
+		<package name="com.astro.testing.test" />
+ 	</packages> -->
+ 	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  </test>
+</suite>
