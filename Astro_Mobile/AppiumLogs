@@ -1,0 +1,197 @@
+[Appium] Welcome to Appium v1.6.4
+[Appium] Non-default server args:
+[Appium]   address: 127.0.0.1
+[Appium] Appium REST http interface listener started on 127.0.0.1:4723
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.astro.astroview","appActivity":"com.astro.astroview.activities.LauncherActivity","autoWebview":true,"platformName":"Android","deviceName":"HTCDesire826","newCommandTimeout":120},"requiredCapabilities":{},"capabilities":{"desiredCapabilities":{"appPackage":"com.astro.astroview","appActivity":"com.astro.astroview.activities.LauncherActivity","autoWebview":true,"platformName":"Android","deviceName":"HTCDesire826","newCommandTimeout":120},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]}}
+[MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.astro.astroview","appActivity":"com.astro.astroview.activities.LauncherActivity","autoWebview":true,"platformName":"Android","deviceName":"HTCDesire826","newCommandTimeout":120},{},{"desiredCapabilities":{"appPackage":"com.astro.astroview","appActivity":"com.astro.astroview.activities.LauncherActivity","autoWebview":true,"platformName":"Android","deviceName":"HTCDesire826","newCommandTimeout":120},"requiredCapabilities":{},"alwaysMatch":{"platformName":"Android"},"firstMatch":[]},null,null]
+[BaseDriver] Event 'newSessionRequested' logged at 1493924701109 (00:35:01 GMT+0530 (India Standard Time))
+[Appium] Creating new AndroidDriver (v1.17.1) session
+[Appium] Capabilities:
+[Appium]   appPackage: 'com.astro.astroview'
+[Appium]   appActivity: 'com.astro.astroview.activities.LauncherActivity'
+[Appium]   autoWebview: true
+[Appium]   platformName: 'Android'
+[Appium]   deviceName: 'HTCDesire826'
+[Appium]   newCommandTimeout: 120
+[AndroidDriver] AndroidDriver version: 1.17.1
+[BaseDriver] Session created with session id: 50dcefb9-0fa1-4c10-a52c-54798f0fa572
+[AndroidDriver] Getting Java version
+[AndroidDriver] Java version is: 1.8.0_111
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[ADB] Trying to find a connected android device
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[AndroidDriver] Using device: CC57PYG02272
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe
+[ADB] Setting device id to CC57PYG02272
+[AndroidDriver] App file was not listed, instead we're going to run com.astro.astroview directly on the device
+[AndroidDriver] Checking whether package is present on the device
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","pm","list","packages","com.astro.astroview"]
+[AndroidDriver] Starting Android session
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","wait-for-device"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","echo","ping"]
+[Logcat] Starting logcat capture
+[AndroidDriver] Pushing settings apk to device...
+[ADB] Getting install status for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","pm","list","packages","io.appium.settings"]
+[ADB] App is installed
+[ADB] Getting package info for io.appium.settings
+[ADB] Getting connected devices...
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\build-tools\android-4.4\aapt.exe
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","dumpsys","package","io.appium.settings"]
+[ADB] Cannot read version codes of C:\Users\212398959\AppData\Local\Programs\appium-desktop\resources\app\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","getprop","ro.build.version.sdk"]
+[ADB] Device API level: 21
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","dumpsys","package","io.appium.settings"]
+[AndroidDriver] Pushing unlock helper app to device...
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","install","C:\\Users\\212398959\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-unlock\\bin\\unlock_apk-debug.apk"]
+[ADB] Device API level: 21
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","settings","put","secure","mock_location","1"]
+[ADB] Getting device platform version
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","getprop","ro.build.version.release"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","wm","size"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","getprop","ro.product.model"]
+[ADB] Current device property 'ro.product.model': HTC Desire 826 dual sim
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","getprop","ro.product.manufacturer"]
+[ADB] Current device property 'ro.product.manufacturer': HTC
+[AndroidDriver] No app sent in, not parsing package/activity
+[AndroidDriver] No app capability. Assuming it is already on the device
+[AndroidDriver] Running fast reset (stop and clear)
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","am","force-stop","com.astro.astroview"]
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","pm","clear","com.astro.astroview"]
+[AndroidBootstrap] Watching for bootstrap disconnect
+[ADB] Forwarding system: 4724 to device: 4724
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","forward","tcp:4724","tcp:4724"]
+[UiAutomator] Starting UiAutomator
+[UiAutomator] Moving to state 'starting'
+[UiAutomator] Parsing uiautomator jar
+[UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","push","C:\\Users\\212398959\\AppData\\Local\\Programs\\appium-desktop\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar","/data/local/tmp/"]
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Starting UIAutomator
+[ADB] Creating ADB subprocess with args: ["-P",5037,"-s","CC57PYG02272","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.astro.astroview","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[UiAutomator] Moving to state 'online'
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[ADB] Getting connected devices...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","dumpsys","window"]
+[AndroidDriver] Screen already unlocked, doing nothing
+[ADB] Device API level: 21
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","am","start","-W","-n","com.astro.astroview/com.astro.astroview.activities.LauncherActivity","-S"]
+[AndroidDriver] Setting auto webview to context 'WEBVIEW_com.astro.astroview' with timeout 2000ms
+[AndroidDriver] Getting a list of available webviews
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","cat","/proc/net/unix"]
+[AndroidDriver] Found webviews: []
+[AndroidDriver] Available contexts: ["NATIVE_APP"]
+[AndroidDriver] Getting a list of available webviews
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","cat","/proc/net/unix"]
+[AndroidDriver] Found webviews: []
+[AndroidDriver] Available contexts: ["NATIVE_APP"]
+[AndroidDriver] Getting a list of available webviews
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","cat","/proc/net/unix"]
+[AndroidDriver] Found webviews: []
+[AndroidDriver] Available contexts: ["NATIVE_APP"]
+[AndroidDriver] Getting a list of available webviews
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","cat","/proc/net/unix"]
+[AndroidDriver] Found webviews: []
+[AndroidDriver] Available contexts: ["NATIVE_APP"]
+[AndroidDriver] Shutting down Android driver
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","am","force-stop","com.astro.astroview"]
+[ADB] Pressing the HOME button
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","input","keyevent",3]
+[AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] Received command result from bootstrap
+[UiAutomator] Shutting down UiAutomator
+[UiAutomator] Moving to state 'stopping'
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+
+[AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+
+[AndroidBootstrap] [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+
+[AndroidBootstrap] [UIAUTO STDOUT] Time: 15.979
+
+[AndroidBootstrap] [UIAUTO STDOUT] OK (1 test)
+
+[UiAutomator] UiAutomator shut down normally
+[UiAutomator] Moving to state 'stopped'
+[ADB] Attempting to kill all uiautomator processes
+[ADB] Getting all processes with uiautomator
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","ps"]
+[ADB] No uiautomator process found to kill, continuing...
+[UiAutomator] Moving to state 'stopped'
+[Logcat] Stopping logcat capture
+[ADB] Getting connected devices...
+[ADB] 1 device(s) connected
+[ADB] Running 'C:\KMS\Softwares\adt-bundle-windows-x86_64-20131030\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","CC57PYG02272","shell","am","force-stop","io.appium.unlock"]
+[AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+[HTTP] <-- POST /wd/hub/session 500 43836 ms - 75 
