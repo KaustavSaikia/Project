@@ -1,10 +1,10 @@
 <b>Prerequisites: -</b>
 
 1) Below software needs to be present in the system: -
-    > Java 8
-    > Maven
-    > Eclipse or similar iDEs
-    > Appium
+    > Java 8 <br>
+    > Maven <br>
+    > Eclipse or similar iDEs <br>
+    > Appium <br>
 
 To run the test from Eclipse below plugins should be installed: -
     > TestNG Plugin (Test Framework)
