@@ -58,10 +58,10 @@ How / Where to check the execution reports: -
                  > AstroAssignment2.html
 
 <b><a href="https://github.com/KaustavSaikia/Project/tree/master/Astro_Mobile">Astro_Mobile </a></b>: - QA Assignment Level 3 (Mobile) test codes committed.<br>
-    In this assignment download links for Android and iOS mobile were provided. There are some limitations to automate the already installed apps. The details are as below:- <br>
-    1) iOS Mobile: To auitomate iOS app we would need the app source code base. Apple don't allow directly to interat with the app, we need to sign the app with Apple developer profile and generate the .ipa file to perform automation. <br>
-    2) Android app: - <br>
-        i) To automate already installed app we need to find out the "appPackage" and "appActivity". We can find out these using App Info app (available in play store). I got the information for Astro Mobile app, the details are appPackage="com.astro.astroview" and appActivity= "com.astro.astroview.activities.LauncherActivity" but after launching the app its thwoing exception. Looks like debug is not enabled for the app for which I would need the Manifest file. <br>
-        ii) If team provide the debug android app I can automate it without any issue. <br>
-    For the above reason I couldn't develop the test automation code for mobile. <br>
-    I have create a class with the basic test code to run a test in Android mobile with the Appium server details so that you can review the code. If you run the test it will launch the app but will exit with an exception. <br>
+In this assignment download links for Android and iOS mobile were provided. There are some limitations to automate the already installed apps. The details are as below:- 
+     1) iOS Mobile: To auitomate iOS app we would need the app source code base. Apple don't allow directly to interat with the app, we need to sign the app with Apple developer profile and generate the .ipa file to perform automation. 
+     2) Android app: - 
+            i) To automate already installed app we need to find out the "appPackage" and "appActivity". We can find out these using App Info app (available in play store). I got the information for Astro Mobile app, the details are appPackage="com.astro.astroview" and appActivity= "com.astro.astroview.activities.LauncherActivity" but after launching the app its thwoing exception. Looks like debug is not enabled for the app for which I would need the Manifest file. 
+           ii) If team provide the debug android app I can automate it without any issue. 
+For the above reason I couldn't develop the test automation code for mobile. 
+I have create a class with the basic test code to run a test in Android mobile with the Appium server details so that you can review the code. If you run the test it will launch the app but will exit with an exception. 
