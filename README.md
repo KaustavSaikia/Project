@@ -64,3 +64,5 @@ How / Where to check the execution reports: -
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ii) If team provide the debug android app I can automate it without any issue. </p>
 <p>For the above reason I couldn't develop the test automation code for mobile. </p>
 <p>I have create a class with the basic test code to run a test in Android mobile with the Appium server details so that you can review the code. If you run the test it will launch the app but will exit with an exception. </p>
+
+<i> <b>Note:- </b></i> Appium logs commited for your reference.  https://github.com/KaustavSaikia/Project/blob/master/Astro_Mobile/AppiumLogs
