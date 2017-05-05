@@ -12,9 +12,9 @@ To run the test from Eclipse below plugins should be installed: -
 
 Github project directory: -  https://github.com/KaustavSaikia/Project
 
-<b>Astro Java Doc</b> : - Cotains the java doc of the project with all the details of the functions / libraries. Download the folder and open index.html which has reference to all the packages and classes.
+<b><a href="https://github.com/KaustavSaikia/Project/tree/master/Astro%20Java%20Doc">Astro Java Doc </a></b> : - Cotains the java doc of the project with all the details of the functions / libraries. Download the folder and open index.html which has reference to all the packages and classes.
 
-<b>Astro </b>: - QA Assignment Level 1 and QA Assignment Level 2 test automation codes are committed in this folder. The project framework is developed based on the Page Object Model with Objects, Pages and Test classes keppt seperate. 
+<b><a href="https://github.com/KaustavSaikia/Project/tree/master/Astro">Astro </a></b>: - QA Assignment Level 1 and QA Assignment Level 2 test automation codes are committed in this folder. The project framework is developed based on the Page Object Model with Objects, Pages and Test classes keppt seperate. 
 
 Checkout / Download the project to your local system. 
 
@@ -56,3 +56,12 @@ How / Where to check the execution reports: -
             Extent Report names are parameterised and provided in the execution xml files
                  > AstroAssignment1.html
                  > AstroAssignment2.html
+
+<b><a href="https://github.com/KaustavSaikia/Project/tree/master/Astro_Mobile">Astro_Mobile </a></b>: - QA Assignment Level 3 (Mobile) test codes committed.
+    In this assignment download links for Android and iOS mobile were provided. There are some limitations to automate the already installed apps. The details are as below:- 
+    1) iOS Mobile: To auitomate iOS app we would need the app source code base. Apple don't allow directly to interat with the app, we need to sign the app with Apple developer profile and generate the .ipa file to perform automation.
+    2) Android app: - 
+        i) To automate already installed app we need to find out the "appPackage" and "appActivity". We can find out these using App Info app (available in play store). I got the information for Astro Mobile app, the details are appPackage="com.astro.astroview" and appActivity= "com.astro.astroview.activities.LauncherActivity" but after launching the app its thwoing exception. Looks like debug is not enabled for the app for which I would need the Manifest file.
+        ii) If team provide the debug android app I can automate it without any issue.
+    For the above reason I couldn't develop the test automation code for mobile.
+    I have create a class with the basic test code to run a test in Android mobile with the Appium server details so that you can review the code. If you run the test it will launch the app but will exit with an exception.
